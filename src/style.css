@@ -1,1 +1,25 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(3, 43, 119, 0.918);
+  margin-top: 300px;
+  font-family: cursive;
+}
+
+div.container {
+  height: auto;
+  width: auto;
+  padding: 20px;
+  border: 10px solid #0905f5;
+  background-color: rgb(123, 123, 228);
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 20px #0905f5;
+}
+
+div#excusas {
+  text-align: center;
+}
